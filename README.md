@@ -1,10 +1,10 @@
 # Markdown Previewer
 
-**View the [live version](https://webpack-ts-react-boilerplate.netlify.app/) hosted on netlify.**
+**View the [live version](https://display-markdown.netlify.app) hosted on netlify.**
 
 ![project header](/public/project-header.png)
 
-> This project is intended to be used as a boilerplate project. It uses Webpack 5, Babel 7, React 17 and Typescript 4.
+> This project previews markdown as html and uses Webpack 5, Babel 7, React 17 and Typescript 4.
 
 ## :sparkles: Features :sparkles:
 
