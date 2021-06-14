@@ -1,4 +1,4 @@
-# webpack-typescript
+# Markdown Previewer
 
 **View the [live version](https://webpack-ts-react-boilerplate.netlify.app/) hosted on netlify.**
 
