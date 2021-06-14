@@ -1,20 +1,17 @@
-import { Images } from "./components";
+import { Editor, Previewer, Wrapper } from "./components";
 import { Header, Footer } from "./ui";
 
 export const App: React.FC<Record<string, never>> = () => {
   return (
-    <div className="app d-flex flex-column">
+    <div className="app d-flex flex-column position-relative">
       <Header />
-      <main className="container">
-        <Images />
-        <div className="bg-warning px-5 py-4 mx-auto">
-          <h2 className="text-danger">Change this text!</h2>
-          <input
-            type="text"
-            className="form-control mb-3"
-            placeholder="Hot reload remembers state"
-          />
-        </div>
+      <main className="container bg-light">
+        <Wrapper title="editor">
+          <Editor />
+        </Wrapper>
+        <Wrapper title="previewer">
+          <Previewer />
+        </Wrapper>
       </main>
       <Footer />
     </div>
